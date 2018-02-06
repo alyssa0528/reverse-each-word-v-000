@@ -1,6 +1,7 @@
 def reverse_each_word(sentence)
   sentence_array = sentence.split(" ") # [hello, there, and, how, are, you?]
   sentence_array.collect do |word|
-    word.reverse.join(" ")
+    word.reverse
   end 
+  sentence_array.join(" ")
 end
