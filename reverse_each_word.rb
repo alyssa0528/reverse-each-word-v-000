@@ -13,4 +13,4 @@ def reverse_each_word(sentence)
     word.reverse
   end
 end 
-reverse_each_word(sentence).join
+reverse_each_word(sentence).join(" ")
